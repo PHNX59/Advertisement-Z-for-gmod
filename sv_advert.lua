@@ -50,7 +50,7 @@ function LoadAndSendRandomMessage()
             local prefix = "[ProphuntZ] "
 
             local prefixColor = Color(255, 0, 0) 
-            local messageColor = Color(0, 255, 0)
+            local messageColor = Color(255, 255, 255)
 
             net.Start("SendRandomMessage")
             net.WriteString(prefix)
