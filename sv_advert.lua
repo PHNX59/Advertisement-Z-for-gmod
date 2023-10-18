@@ -79,4 +79,4 @@ for i = 1, 5 do
 end
 
 util.AddNetworkString("SendRandomMessage")
-timer.Create("RandomMessageTimer", 5, 0, LoadAndSendRandomMessage)
+timer.Create("RandomMessageTimer", 60, 0, LoadAndSendRandomMessage)
